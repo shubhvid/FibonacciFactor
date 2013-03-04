@@ -1,4 +1,12 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+#
+# Solution to Problem: https://amazon.interviewstreet.com/challenges/dashboard/#problem/4fd653336df28
+#
+# Author: Shubham Vidyarthi
+# March 4, 2013
+# EMail: shubhvid@gmail.com
+#
+
 import sys, os
 TEST = True
 
