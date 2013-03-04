@@ -21,7 +21,7 @@ def getInput(file=sys.stdin):
         K_list = K_list[1:]
 
         for K in K_list:
-            if not (K > 1 and K < 1000000):
+            if not (K > 1 and K < 1000001):
                 raise
         if not (T > 0 and T < 6):
             raise Exception ("Invalid number of testcases %s" % T)
