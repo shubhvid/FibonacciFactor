@@ -62,7 +62,7 @@ def getPrimeFactors(number):
 # Single pass on generated-on-the-fly Fibonacci sequence
 # until all the testcases are solved.
 def searchFibonacci(factor_to_K_map, problem_set):
-    this = 2 # 'this' <- the current fibonacci number being evaluated
+    this = 1 # 'this' <- the current fibonacci number being evaluated
     prev = 1 # need this to calculate the next fibonacci number
     solution_dict = {}
     while problem_set:
